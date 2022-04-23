@@ -1,0 +1,78 @@
+
+
+
+/* index */ 
+
+@media (min-width:1000px) {
+    .cuerpouno{
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        "brazo1 brazo1"
+        "brazo2 brazo2"
+        "brazo3 brazo4"
+        ;
+    }
+    .brazo3 {
+        display: grid;
+        margin-bottom: 1%;
+        grid-area: brazo3;
+        margin-bottom: 10%;
+    }
+    .brazo4 {
+        display: grid;
+        grid-area: brazo4;
+        align-items: center;
+    }
+    }   
+
+/* Productos*/ 
+    
+@media (min-width:1000px) {
+    #mapa {
+        display: grid;
+        grid-template-areas:
+           "uno dos"
+           ;
+        margin-bottom: 5%;
+        text-align: center;
+        margin-left: 2%;
+    }
+    }
+
+    /*footer */ 
+@media (min-width:1000px) {
+    footer {
+        height: 100px;
+        grid-area: footer;
+        background-color:#603322 ;
+        bottom: 0;
+        margin-top: auto;
+        display: grid;
+        grid-template-areas:
+        "botones derechos"
+        ;
+    
+} }
+
+
+    /*Productos */ 
+
+    @media (min-width:1000px) {
+        .padre {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-areas:
+            "uno uno"
+            "dos tres"
+            "cuatro cinco"
+            "seis seis"
+            "siete ocho"
+            "nueve diez"
+            ;
+            row-gap: 10px;
+            justify-items: center;
+            margin-bottom: 10%;
+            
+        }
+        }
+    

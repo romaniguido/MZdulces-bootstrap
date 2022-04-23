@@ -1,0 +1,195 @@
+/* Estructura General de la pagina */ 
+
+a {
+    text-decoration: none;
+    color: white;
+}
+body {
+    background-color: #f3efed;
+}
+
+.contenedor {
+    display: grid;
+    grid-template-areas:
+    "barra"
+    "banner"
+    "cuerpo"
+    "footer"
+    ;
+
+    .barra {
+        display: grid;
+
+        grid-area: barra;
+        ;
+    }
+
+    .main {
+        display: grid;
+    
+        grid-area: cuerpo;
+        ; 
+    }
+}
+
+/* Index */ 
+
+.cuerpouno{
+    display: grid;
+    grid-template-areas: 
+    "brazo1 "
+    "brazo2 "
+    "brazo3 "
+    "brazo4"
+    ;
+    .brazo1 {
+        display: grid;
+    
+        grid-area: brazo1;
+    } 
+    .brazo2 {
+        display: grid;
+    
+        grid-area: brazo2;
+    }
+    .brazo3 {
+        display: grid;
+        margin-bottom: 1%;
+        grid-area: brazo3;
+        justify-content: center;
+        
+        
+    }   
+    .brazo4 {
+        display: grid;
+        grid-area: brazo4;
+    }
+    
+}
+
+/* Nosotros */ 
+
+#mapa {
+    display: grid;
+    grid-template-areas:
+       "uno "
+       "dos"
+       ;
+    margin-bottom: 50px;
+    text-align: center;
+    margin-left: 10px;
+}
+.padre img {
+    width: 50%;
+}
+
+
+
+
+/* Productos */ 
+
+
+.padre {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    "uno "
+    "dos "
+    "tres"
+    "cuatro "
+    "cinco"
+    "seis "
+    "siete"
+    " ocho"
+    "nueve"
+    "diez"
+    ;
+    row-gap: 10px;
+    justify-items: center;
+    margin-bottom: 10%;
+}
+
+#uno {
+    grid-area: uno;
+    display: grid;
+
+    justify-items: center;
+
+
+}
+#dos {
+    grid-area: dos;
+    display: grid;
+    justify-items: center;
+
+
+}
+#tres {
+    grid-area: tres;
+    display: grid;
+    justify-items: center;
+
+    
+}
+#cuatro {
+    grid-area: cuatro;
+    display: grid;
+    justify-items: center;
+
+}
+#cinco {
+    grid-area: cinco;
+    display: grid;
+    justify-items: center;
+
+}
+#seis {
+    grid-area: seis;
+    display: grid;
+    justify-items: center;
+
+}
+#siete {
+    grid-area: siete;
+    display: grid;
+    justify-items: center;
+
+}
+#ocho {
+    grid-area: ocho;
+    display: grid;
+    justify-items: center;
+
+}
+#nueve {
+    grid-area: nueve;
+    display: grid;
+    justify-items: center;
+
+}
+#diez {
+    grid-area: diez;
+    display: grid;
+    justify-items: center;
+
+}
+
+
+/* Contacto */ 
+
+.formulario {
+    color: #000000;
+    text-align: left;
+    font-size: 150%;
+    margin-left: 2%;
+    margin-bottom: 5%;
+    font-family: 'Mukta', sans-serif;
+    margin-bottom: 5%;
+}
+
+.control {
+    width: 100%;
+    padding: 0px;
+    margin-bottom: 1%;
+    size: 10%;
+}

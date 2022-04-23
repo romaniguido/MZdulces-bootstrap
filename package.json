@@ -1,0 +1,19 @@
+{
+  "name": "mz-dulces-romani-guido.0",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/romaniguido/MZdulces-bootstrap.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/romaniguido/MZdulces-bootstrap/issues"
+  },
+  "homepage": "https://github.com/romaniguido/MZdulces-bootstrap#readme",
+  "description": ""
+}

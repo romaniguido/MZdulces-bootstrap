@@ -1,0 +1,53 @@
+/* footer */ 
+
+
+
+footer {
+    grid-area: footer;  
+    background-color:#603322 ;
+    bottom: 0;
+    margin-top: auto;
+    display: grid;
+    grid-template-areas:
+    "botones"
+    "derechos"
+    ;
+
+}
+
+footer a:hover {
+    transform: scale(1.5,1.5);
+    transition: 0.5s
+}
+
+
+.botones{
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    font-size: 300%;
+    padding: 1%;
+    grid-area: botones;
+    display: flex;
+    justify-content:  space-around;
+    align-items: center;
+}
+
+#derechos {
+    color: white;
+    font-size: 150%;
+    padding: 1%;
+    text-align: right;
+    grid-area: derechos;
+    display: flex;
+    justify-content:  space-around;
+    align-items: center;
+    padding: 1%;
+} 
+
+footer a:hover {
+    transform: scale(1.5,1.5);
+    transition: 0.5s
+}
+
+
